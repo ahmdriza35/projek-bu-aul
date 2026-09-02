@@ -1,0 +1,51 @@
+/* Element (Tag) Selector */
+body {
+    background: #221a15;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+/* Class Selector */
+.daftar {
+    list-style: none;
+    padding: 0;
+    width: 320px;
+}
+
+.harga {
+    color: #e4a430;
+}
+
+.item:hover {
+    background: #2e241d;
+    transform: translateX(6px);
+    cursor: pointer;
+}
+
+.item:hover .harga {
+    color: #ff6b4a;
+}
+
+/* ID Selector */
+#judul-menu {
+    color: #f2e9da;
+    text-align: center;
+}
+
+#menu-favorit {
+    border: 1px dashed #e4a430;
+}
+
+#menu-favorit:hover {
+    background: #3a2b1c;
+}
